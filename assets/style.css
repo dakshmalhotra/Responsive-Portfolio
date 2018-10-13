@@ -4,6 +4,7 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/concrete_seamless.png");
+    margin:0px;
   }
   
   * {
@@ -52,11 +53,9 @@ body {
   
   /* header */
   
-  #masthead {
-    position: fixed;
+  #masthead { 
     z-index: 99;
-    width: 100%;
-    margin: 0 0 30px;
+    width: 100%; 
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
@@ -99,10 +98,8 @@ body {
   /* footer */
   
   footer {
-    padding: 30px 0;
     clear: both;
     font-size: 12px;
-    color: #ffffff;
     color: #cccccc;
     text-align: center;
     background: #666666;
@@ -120,7 +117,6 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
     min-height: calc(100vh - 70px);
   }
   
@@ -128,8 +124,7 @@ body {
     float: left;
     width: 100%;
     max-width: 960px;
-    padding: 30px;
-    margin: 0 0 40px;
+    padding: 30px; 
     background: #ffffff;
     border: 1px solid #dddddd;
   }
@@ -216,26 +211,21 @@ body {
     border: 0 none;
   }
 
-  @media screen and (max-width: 980px)
-  body {
-    background-color: tan;
+  @media screen and (max-width: 980px) { 
+    .header {
+      background-color: tan; 
+    }
+    #logo {
+      width: 100%;
+    }
+    nav {
+      float: none;
+      margin-top: 0px;
+      text-align: center;
+    }
+    /* .main-section {
+      background-color: #2e2e2e;
+      color: #ffffff;
+    } */
   }
   
-  @media screen and (max-width: 762px) {
-    body {
-      background-color: blue;
-    }
-  }
-  
-  @media screen and (max-width: 640px) {
-    body {
-      background-color: olive;
-    }
-  }
-
-  .header{
-    position: fixed;
-    top: 0px;
-  }
-
-
